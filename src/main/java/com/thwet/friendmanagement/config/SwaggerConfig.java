@@ -35,8 +35,8 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 	}
 
 	private ApiInfo metaData() {
-		return new ApiInfoBuilder().title("Friend Management").description("Friend Management API").version("1.0.0")
-				.license("Apache License").contact(new Contact("Thwet Thwet Mar", "", "thawtarchit3@gmail.com"))
+		return new ApiInfoBuilder().title("Friend Management").description("Friend Management API").version("1.0")
+				.license("Apache License 2.0").contact(new Contact("Thwet Thwet Mar", "", "thawtarchit3@gmail.com"))
 				.build();
 
 	}
